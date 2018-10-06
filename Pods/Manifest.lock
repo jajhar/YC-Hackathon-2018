@@ -1,17 +1,22 @@
 PODS:
   - KeychainSwift (11.0.0)
-  - SDWebImage (4.4.2):
-    - SDWebImage/Core (= 4.4.2)
-  - SDWebImage/Core (4.4.2)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
 
 DEPENDENCIES:
   - KeychainSwift (= 11.0)
-  - SDWebImage (= 4.4.2)
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - KeychainSwift
+    - SDWebImage
 
 SPEC CHECKSUMS:
   KeychainSwift: bea6bd9f98af7b8d7ca4aa79fe105c00fab532db
-  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
 
-PODFILE CHECKSUM: 67061249d651ed9aa7209f7a942f2848eeb6de2b
+PODFILE CHECKSUM: f8fed9be154b615ed3897b8ad403a6ae9587851f
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0

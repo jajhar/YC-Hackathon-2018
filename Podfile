@@ -7,7 +7,7 @@ target 'Hackathon' do
 
   # Pods for Hackathon
   pod 'KeychainSwift', '11.0'
-  pod 'SDWebImage', '4.4.2'
+  pod 'SDWebImage'
   
   target 'HackathonTests' do
     inherit! :search_paths

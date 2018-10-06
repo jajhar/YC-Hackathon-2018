@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06AB770AE0A955975FF9DB0FCD6D2CE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
 		08AA89D020B5C4FD74D1529A3E972AB9 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EB5CDE86A24880685ABEF9774F70BC /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09A927350FDA7F5205E0B8F49290BBB7 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 962F55407F50D1C44C0822D5A5A2153A /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CE3264D5463F32D5B0D0B7EE1B7702D /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB03B6511E45CC3040C36D2DDF9B137 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D68CA3069E4D3010A72C6E814152133 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D9591F620E5B804BDC006AEE40A756 /* SDImageCacheConfig.m */; };
 		0F3EA6DBE3C3C74861D3222BB057F2BE /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CC8C20F69E835AEC64BB2112688B70 /* NSImage+WebCache.m */; };
 		16D526F8A6164AC6F62AE147CF8FC276 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F84445822E04B1AD46846D27B25894 /* SDWebImageManager.m */; };
+		18E2CFF5F3C098904A0986D435D4A6F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
 		19180F3BFC076C94AFD1836743B9DB7E /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C12CEFAAF4AC228C86057130CF9123 /* SDWebImageDownloader.m */; };
 		1E6F74510EC78D19B1B7908EBB891B9E /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD7BB49028B5525E236C62DA2CF607 /* NSButton+WebCache.m */; };
 		1EB67D5A950A7889AE3B16B090369BC4 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 306735FD30FAADCEDF9885B71BD5B9A7 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2ED335BDE536DBE1F293AD6DF4B3740B /* Pods-HackathonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C958F14D5E267966A3A71B8B4F9B2EBB /* Pods-HackathonTests-dummy.m */; };
 		32543C66BCA70A950318F1DA9DDFDF02 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD62E11BDE0C0C85E9B1741C62DDC50 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C4CCACEDB591C5A0A16BCDDD4DEE3AA /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B51E8E0FFF2937A93C99A8ADAC7ECD /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AFE8F8058E0955AA8ED94B3775C0ACC /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA67A170968A98D80F4927170849312D /* SDWebImage-dummy.m */; };
 		4FF7627CBD3E4F717262FE11262CFB15 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBABE83D6D8FD7F17C168C93298A9A /* SDImageCache.m */; };
 		5265275197800771116C4E396962C4F4 /* SDWebImageImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 397EE69CBB50118C38CDD29B47EEE833 /* SDWebImageImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55A9963BD415D79FA1622F63A0D1445B /* Pods-HackathonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA69C98A70D641EEA62750EF0E8AC1B2 /* Pods-HackathonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		627E1D073F1EB4E464C4AB950CA9CF4A /* SDWebImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C6389C366119A89F76D02B02DF62986D /* SDWebImageCoder.m */; };
 		63E3E54D78ECF2A2C25FB5F202B96D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
 		6654D3844FAE7D85AC143551A599A2A1 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9805D75C0208421C9033A6515D924468 /* UIImage+MultiFormat.m */; };
@@ -41,23 +41,22 @@
 		85C5EEBC110AFBCFFFCA9A3E626419BC /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E87FDA6C11B0A579B4C066CD98AA7B2 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		904A489B4E2318368500E64162E4F0F1 /* Pods-Hackathon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BC7F2DF5AB98F3479527DA2713DC37 /* Pods-Hackathon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93A2129F8BA357BDDA410ABF4C213F36 /* SDWebImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A168ECB8467400A960B1D66D0AA49F1 /* SDWebImageGIFCoder.m */; };
+		94ECEF41C98521785F93067AE1EC58B8 /* Pods-HackathonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C958F14D5E267966A3A71B8B4F9B2EBB /* Pods-HackathonTests-dummy.m */; };
 		94F7358EF15B5A644607DD74F4C7D2A9 /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 505D6764821DDF420BF1DE68CE2935BB /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		971DE2B9055E8A5C08D46231B278EBFE /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5552B7A42D201ACFDE402FC0F14441DB /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		986373BCA4704D5CBB67FC81F3FDC0A7 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9E7BC9CAC6950AA0EA1B9B70CE08FB /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D25CA2D08C47F312E427F5297B06978 /* SDWebImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A546A2DFDEE4326A4509DB94D8C6092 /* SDWebImageCodersManager.m */; };
 		9F800F7C7F7D6D31D893C854F968944A /* Pods-Hackathon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E301EE6E28C1212C81848E215314F0 /* Pods-Hackathon-dummy.m */; };
-		A18BA31EF9539963EBD4208471BEEA43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
 		A4BFE7C260A307CEB332063192647115 /* SDWebImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AC657ECFD3BCDE8D07FD7873AC52E8 /* SDWebImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A500421C917FBD1FF331472D5838325F /* Pods-HackathonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA69C98A70D641EEA62750EF0E8AC1B2 /* Pods-HackathonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A68CDAE8D775BC1F704816D89238A490 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 889A3663F16437661F65EEDB866B77F0 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD0E8D5F58B0B824D2631BDA9D541DFE /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5EF2742A7C6E61CADC72AF5ADF9ED6 /* KeychainSwift-dummy.m */; };
-		AFB72086CC38127F2A9940DE6E15533B /* Pods-HackathonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFADF528CF36EA07D5BF75CD131B2CA7 /* Pods-HackathonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEADF095E00480BB8F5CCB87DAD4796D /* Pods-HackathonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B43E0BD28C3A42C8B547AC6A64DBD3B1 /* Pods-HackathonUITests-dummy.m */; };
 		B1921F16572D8C50D94B3E5BA04B0F6B /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 09625326B6471E86CC0EBCC2AE1F5970 /* SDWebImageTransition.m */; };
 		B3BD902EEFA35439418140812513B378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
 		B567B9B276C085D36AA9EF59B2E86EBB /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 7332D258FE2D69DADD8F46BD57C3EE30 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA4C608E4577A7FF74DF6AA6A7FF13EC /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 09FD5D0C21ED675BD8F42F9A28344DCD /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEAEF54D8D260F8F771E4FF30F981C5E /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FC58E99EC6352219D989763AC6A62B /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C28ABD719103F9D98C85F4AC26308206 /* Pods-HackathonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B43E0BD28C3A42C8B547AC6A64DBD3B1 /* Pods-HackathonUITests-dummy.m */; };
+		C2631210DFD9F14E76D79E5DD0226BFE /* Pods-HackathonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFADF528CF36EA07D5BF75CD131B2CA7 /* Pods-HackathonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3C9E48A844D844A37F08BCF7EE8A0D2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A4BD1CEF7E623C71F97A54BFC3616 /* ImageIO.framework */; };
 		C7D18E3E110FCE3CE2F2746D81ACF3CD /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6A828F0D671DE7E2DACD18C7BAEDF /* SDWebImageDownloaderOperation.m */; };
 		C984458D9FC90AA050B46966CCFF2221 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 14BF3177A9C915D5A4FCB7743807CA40 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,6 +73,7 @@
 		E3F9939FA3F0CF44731B805FF7B9EE9D /* SDWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A31AA6481D82BA4CF49CE72D1A77A74 /* SDWebImageCoderHelper.m */; };
 		E5A1EE2C0ACD0A4594650D7FCD36343C /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F959F69E9E33DCB0B877D48E50F58189 /* UIView+WebCache.m */; };
 		EBA8B955A11296BD7AA307752FE82ED4 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E804E78248E05D26F38D0A56101AD1 /* KeychainSwiftAccessOptions.swift */; };
+		EC548A762D89953E029223D968826672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
 		F255720F31AFDE0A24C325F071346D7D /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 757D23FBAD7369DD423978A1627829BE /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3D8981431D559198FD1D3ECD8127CFF /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9C9514D87EBD8BAA686A2C63F6659E /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6E736A1755880C30855B873707E7A0C /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = D53A2D99BE90C2CD79FAC0D1216D7D4C /* UIImage+ForceDecode.m */; };
@@ -95,6 +95,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 38ACA430605AFB4229712A18BDDF5086;
 			remoteInfo = KeychainSwift;
+		};
+		5170A21EF8B566220B1451F78709855A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA57EC15B57B150D2C9FFBC4F1F853A1;
+			remoteInfo = "Pods-Hackathon";
+		};
+		B541A5FF72CD2081A1509489C3423BE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA57EC15B57B150D2C9FFBC4F1F853A1;
+			remoteInfo = "Pods-Hackathon";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -208,6 +222,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		19E83C89B9EDE8464871C6927688A47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC548A762D89953E029223D968826672 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4644C6D96A73768B60CF66E22FD3B879 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,11 +238,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C15B98082A617EFC7C994ED0319BAB8 /* Frameworks */ = {
+		750B694F46D7A4F7764B9442F67B4979 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A18BA31EF9539963EBD4208471BEEA43 /* Foundation.framework in Frameworks */,
+				18E2CFF5F3C098904A0986D435D4A6F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,14 +252,6 @@
 			files = (
 				F963672A3779891B625CEA00A7D17D34 /* Foundation.framework in Frameworks */,
 				C3C9E48A844D844A37F08BCF7EE8A0D2 /* ImageIO.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C106A7D74EC31FDD4B11DE1A147E76D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06AB770AE0A955975FF9DB0FCD6D2CE3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +492,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		14CAD4F2B28B807EC4C7AD40D3745794 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A9963BD415D79FA1622F63A0D1445B /* Pods-HackathonUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7458148EF4BF9E202604BEDFB493550B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,19 +543,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D375C3584BD866BDD543E5CAF11E5860 /* Headers */ = {
+		F974BCEA0D9AA8D90E0B8F6C768C3170 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A500421C917FBD1FF331472D5838325F /* Pods-HackathonUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2B97E28B86B77AEFBF0D56636861492 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AFB72086CC38127F2A9940DE6E15533B /* Pods-HackathonTests-umbrella.h in Headers */,
+				C2631210DFD9F14E76D79E5DD0226BFE /* Pods-HackathonTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,17 +562,18 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		039355904245154AAF81F6DADE40A5FE /* Pods-HackathonTests */ = {
+		0CF1EB0E7591FAC8D7323CCC327E3898 /* Pods-HackathonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49D59F99A7D6B98D834AB7DA857B3CDD /* Build configuration list for PBXNativeTarget "Pods-HackathonTests" */;
+			buildConfigurationList = 2AD192288152F78BE298C3BDDB59FFB8 /* Build configuration list for PBXNativeTarget "Pods-HackathonTests" */;
 			buildPhases = (
-				2A50FBE69290F4701536B8129EF50548 /* Sources */,
-				4C15B98082A617EFC7C994ED0319BAB8 /* Frameworks */,
-				E2B97E28B86B77AEFBF0D56636861492 /* Headers */,
+				2F5E35C61240740AD4C631E345DF184E /* Sources */,
+				19E83C89B9EDE8464871C6927688A47C /* Frameworks */,
+				F974BCEA0D9AA8D90E0B8F6C768C3170 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F512BC936D2CF60D3860B627BF86AAA7 /* PBXTargetDependency */,
 			);
 			name = "Pods-HackathonTests";
 			productName = "Pods-HackathonTests";
@@ -580,23 +595,6 @@
 			name = KeychainSwift;
 			productName = KeychainSwift;
 			productReference = 6C63A316547E448301A111C4D2FD7AB3 /* KeychainSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5314D865FFCC0DE93C843350C8834930 /* Pods-HackathonUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A46A29DA279B8667CECD3EF02C200F51 /* Build configuration list for PBXNativeTarget "Pods-HackathonUITests" */;
-			buildPhases = (
-				32D2846E8AAC418BEC4014821F2D2974 /* Sources */,
-				C106A7D74EC31FDD4B11DE1A147E76D6 /* Frameworks */,
-				D375C3584BD866BDD543E5CAF11E5860 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-HackathonUITests";
-			productName = "Pods-HackathonUITests";
-			productReference = C07A43A07EB3A1E2FB067B1D17503BD7 /* Pods_HackathonUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AA57EC15B57B150D2C9FFBC4F1F853A1 /* Pods-Hackathon */ = {
@@ -635,6 +633,24 @@
 			productReference = CC925F6A0207D04BB077F799735327EF /* SDWebImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		EA4706C0E36E983640A3D994222E437D /* Pods-HackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750ABEC810731A55B62062ABAA23B8EF /* Build configuration list for PBXNativeTarget "Pods-HackathonUITests" */;
+			buildPhases = (
+				E58CD4858069661C825E97B4831911D4 /* Sources */,
+				750B694F46D7A4F7764B9442F67B4979 /* Frameworks */,
+				14CAD4F2B28B807EC4C7AD40D3745794 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE8B6656D5178AD29E3A096CADE0F424 /* PBXTargetDependency */,
+			);
+			name = "Pods-HackathonUITests";
+			productName = "Pods-HackathonUITests";
+			productReference = C07A43A07EB3A1E2FB067B1D17503BD7 /* Pods_HackathonUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -658,27 +674,19 @@
 			targets = (
 				38ACA430605AFB4229712A18BDDF5086 /* KeychainSwift */,
 				AA57EC15B57B150D2C9FFBC4F1F853A1 /* Pods-Hackathon */,
-				039355904245154AAF81F6DADE40A5FE /* Pods-HackathonTests */,
-				5314D865FFCC0DE93C843350C8834930 /* Pods-HackathonUITests */,
+				0CF1EB0E7591FAC8D7323CCC327E3898 /* Pods-HackathonTests */,
+				EA4706C0E36E983640A3D994222E437D /* Pods-HackathonUITests */,
 				B4DDBBBD8C2E63EB648D0CDC60C62B56 /* SDWebImage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A50FBE69290F4701536B8129EF50548 /* Sources */ = {
+		2F5E35C61240740AD4C631E345DF184E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ED335BDE536DBE1F293AD6DF4B3740B /* Pods-HackathonTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		32D2846E8AAC418BEC4014821F2D2974 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C28ABD719103F9D98C85F4AC26308206 /* Pods-HackathonUITests-dummy.m in Sources */,
+				94ECEF41C98521785F93067AE1EC58B8 /* Pods-HackathonTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +706,14 @@
 				CCBE57237E9F0DBAAF02A5575244F3BE /* KeychainSwift.swift in Sources */,
 				EBA8B955A11296BD7AA307752FE82ED4 /* KeychainSwiftAccessOptions.swift in Sources */,
 				7C0F17488B3552EAAFC074CFC4491DD5 /* TegKeychainConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58CD4858069661C825E97B4831911D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEADF095E00480BB8F5CCB87DAD4796D /* Pods-HackathonUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,144 +760,28 @@
 			target = B4DDBBBD8C2E63EB648D0CDC60C62B56 /* SDWebImage */;
 			targetProxy = 1FE94B7219134C7F520F1A88E9743DF5 /* PBXContainerItemProxy */;
 		};
+		BE8B6656D5178AD29E3A096CADE0F424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Hackathon";
+			target = AA57EC15B57B150D2C9FFBC4F1F853A1 /* Pods-Hackathon */;
+			targetProxy = B541A5FF72CD2081A1509489C3423BE4 /* PBXContainerItemProxy */;
+		};
 		D06E57430A996F2C1A0DE40C1EB6B017 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KeychainSwift;
 			target = 38ACA430605AFB4229712A18BDDF5086 /* KeychainSwift */;
 			targetProxy = 4168EA402FC9A07F14AD88402C3C582C /* PBXContainerItemProxy */;
 		};
+		F512BC936D2CF60D3860B627BF86AAA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Hackathon";
+			target = AA57EC15B57B150D2C9FFBC4F1F853A1 /* Pods-Hackathon */;
+			targetProxy = 5170A21EF8B566220B1451F78709855A /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0174D788EDB104ED5B55855867E8E6B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E962EA0BF588B8831FFA06A0059ADC88 /* SDWebImage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
-				PRODUCT_NAME = SDWebImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1BA2364A79723811CFB9AA02FA832C46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4677E36F70AA71F8FB53C7B7C1761442 /* Pods-Hackathon.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Hackathon/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Hackathon/Pods-Hackathon.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Hackathon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1BF162ECB23784C0E7C5C62CA7011FF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C3B8C92335FD810B28DAB7A30C83E0C /* KeychainSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
-				PRODUCT_NAME = KeychainSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2511EE2FF6B2A27D44E80BFB5C439F57 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C3B8C92335FD810B28DAB7A30C83E0C /* KeychainSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
-				PRODUCT_NAME = KeychainSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3689957E0025D075A2C0993927F9FE71 /* Debug */ = {
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -913,6 +813,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -937,17 +838,17 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6AFD575DB4B1EEB4154F6ED626C42DB4 /* Debug */ = {
+		1E421E02111B83E2B33DA504E3E67103 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AAE543686C88A26747300288581332D /* Pods-HackathonTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -968,7 +869,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -977,10 +878,11 @@
 			};
 			name = Debug;
 		};
-		9893354DEE77ED84004A96029BA7B758 /* Debug */ = {
+		1FDDE7B4099A7284F5C756869393ED6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07A22B21D97027287A00DACA977DEFF2 /* Pods-HackathonUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1001,7 +903,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1010,10 +912,43 @@
 			};
 			name = Debug;
 		};
-		A67E884C8B2FFC16E9A251F99FD6B023 /* Debug */ = {
+		259732588A29E4DACAFE496C8F8CC739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E962EA0BF588B8831FFA06A0059ADC88 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		288B853216212B972582E60674A45CC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E3368E99BE3440B56E789412013633C /* Pods-Hackathon.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1034,7 +969,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Hackathon;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1045,10 +980,47 @@
 			};
 			name = Debug;
 		};
-		AC5D1C3E8B3EC3F4AD9A96D719360B19 /* Release */ = {
+		2F1F16BA8FC0E11A5B14940E7BE4F480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4677E36F70AA71F8FB53C7B7C1761442 /* Pods-Hackathon.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hackathon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hackathon/Pods-Hackathon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		438327C4FD22231AEC6010F2A1BE85DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8FCCF5BD23038226C4FFF730F38A5157 /* Pods-HackathonTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1069,7 +1041,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1079,9 +1051,9 @@
 			};
 			name = Release;
 		};
-		AEDE04E445DFD62A4E3EE544C98FC24D /* Release */ = {
+		83E078AE15DD46E2E8E13ED79F73B076 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E962EA0BF588B8831FFA06A0059ADC88 /* SDWebImage.xcconfig */;
+			baseConfigurationReference = 3C3B8C92335FD810B28DAB7A30C83E0C /* KeychainSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1092,17 +1064,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
-				PRODUCT_NAME = SDWebImage;
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1110,10 +1084,11 @@
 			};
 			name = Release;
 		};
-		DD85D93675137FAD11A5D83B22011A0A /* Release */ = {
+		A60894228E1D9CD909215DE16368CE10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C246D319B0D5F50A0CFEB5D4F4804F5E /* Pods-HackathonUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1134,7 +1109,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1144,7 +1119,7 @@
 			};
 			name = Release;
 		};
-		F582AD13A9DE7F131B91568E61E9D1F8 /* Release */ = {
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1176,6 +1151,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1196,11 +1172,73 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		E1CCBE19A56FCE55FEFD48460783B13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3B8C92335FD810B28DAB7A30C83E0C /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC9F2AF9A105B3B2F4F11D8DC74825A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E962EA0BF588B8831FFA06A0059ADC88 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1208,8 +1246,8 @@
 		11726B818A33F06EC13605A154A65A45 /* Build configuration list for PBXNativeTarget "Pods-Hackathon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A67E884C8B2FFC16E9A251F99FD6B023 /* Debug */,
-				1BA2364A79723811CFB9AA02FA832C46 /* Release */,
+				288B853216212B972582E60674A45CC7 /* Debug */,
+				2F1F16BA8FC0E11A5B14940E7BE4F480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1217,8 +1255,17 @@
 		16C5D5A8E6CDB4211B0732F819F55A47 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BF162ECB23784C0E7C5C62CA7011FF2 /* Debug */,
-				2511EE2FF6B2A27D44E80BFB5C439F57 /* Release */,
+				E1CCBE19A56FCE55FEFD48460783B13B /* Debug */,
+				83E078AE15DD46E2E8E13ED79F73B076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD192288152F78BE298C3BDDB59FFB8 /* Build configuration list for PBXNativeTarget "Pods-HackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E421E02111B83E2B33DA504E3E67103 /* Debug */,
+				438327C4FD22231AEC6010F2A1BE85DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1226,17 +1273,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3689957E0025D075A2C0993927F9FE71 /* Debug */,
-				F582AD13A9DE7F131B91568E61E9D1F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		49D59F99A7D6B98D834AB7DA857B3CDD /* Build configuration list for PBXNativeTarget "Pods-HackathonTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6AFD575DB4B1EEB4154F6ED626C42DB4 /* Debug */,
-				AC5D1C3E8B3EC3F4AD9A96D719360B19 /* Release */,
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1244,17 +1282,17 @@
 		593287F2287806D664893B93CCA83FF5 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0174D788EDB104ED5B55855867E8E6B6 /* Debug */,
-				AEDE04E445DFD62A4E3EE544C98FC24D /* Release */,
+				FC9F2AF9A105B3B2F4F11D8DC74825A3 /* Debug */,
+				259732588A29E4DACAFE496C8F8CC739 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A46A29DA279B8667CECD3EF02C200F51 /* Build configuration list for PBXNativeTarget "Pods-HackathonUITests" */ = {
+		750ABEC810731A55B62062ABAA23B8EF /* Build configuration list for PBXNativeTarget "Pods-HackathonUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9893354DEE77ED84004A96029BA7B758 /* Debug */,
-				DD85D93675137FAD11A5D83B22011A0A /* Release */,
+				1FDDE7B4099A7284F5C756869393ED6E /* Debug */,
+				A60894228E1D9CD909215DE16368CE10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
