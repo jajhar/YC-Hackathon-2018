@@ -1,0 +1,17 @@
+PODS:
+  - KeychainSwift (11.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - KeychainSwift (= 11.0)
+  - SDWebImage (= 4.4.2)
+
+SPEC CHECKSUMS:
+  KeychainSwift: bea6bd9f98af7b8d7ca4aa79fe105c00fab532db
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: 67061249d651ed9aa7209f7a942f2848eeb6de2b
+
+COCOAPODS: 1.4.0
