@@ -12,13 +12,12 @@ class RootTabBarController: UITabBarController {
     
     
     override func viewDidLoad() {
-        super.viewDidLoad() {
-            
-            setViewControllers([
-                
-                ], animated: false)
-            
-        }
+        super.viewDidLoad()
+        
+        tabBar.barTintColor = UIColor.easyMeetTheme
+        let onboardingVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "onboarding-view-controller")
+        onboardingVC.tabBarItem = UITabBarItem(title: nil, image: #imageLiteral(resourceName: "when-image"), selectedImage: nil)
+        setViewControllers([onboardingVC], animated: false)
     }
 }
 

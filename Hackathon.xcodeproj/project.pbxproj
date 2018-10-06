@@ -47,6 +47,8 @@
 		E0F7D30BEA14E79D745DCC33 /* Pods_HackathonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D1550F981296BE08BAA9BD /* Pods_HackathonTests.framework */; };
 		E3BCF2C9713F2C1ABA0BE27E /* Pods_Hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B652C18F2CA5294CA739E396 /* Pods_Hackathon.framework */; };
 		E7067A0A21686A7C00CF09F7 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067A0921686A7C00CF09F7 /* RootTabBarController.swift */; };
+		E70D396E21688C61003D525B /* welcome-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70D396D21688C61003D525B /* welcome-gif.gif */; };
+		E72226CE216899BC0055355D /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72226CD216899BC0055355D /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +121,8 @@
 		A963B3F40EC44E57E97F6455 /* Pods_HackathonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackathonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B652C18F2CA5294CA739E396 /* Pods_Hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7067A0921686A7C00CF09F7 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		E70D396D21688C61003D525B /* welcome-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "welcome-gif.gif"; sourceTree = "<group>"; };
+		E72226CD216899BC0055355D /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		F4C4202D0382EC0AA002045F /* Pods-HackathonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonTests/Pods-HackathonTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,6 +238,8 @@
 				8C7E28ED21671CEE00B29284 /* StartViewController.swift */,
 				8C7E28EF21671CEE00B29284 /* Main.storyboard */,
 				E7067A0921686A7C00CF09F7 /* RootTabBarController.swift */,
+				E72226CD216899BC0055355D /* OnboardingViewController.swift */,
+				E70D396D21688C61003D525B /* welcome-gif.gif */,
 				8C03AE792167216B003DA0C9 /* Config */,
 				8C03AE56216720DC003DA0C9 /* Extensions */,
 				8C7E291C21671D4C00B29284 /* Data */,
@@ -427,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7E28F921671CF000B29284 /* LaunchScreen.storyboard in Resources */,
+				E70D396E21688C61003D525B /* welcome-gif.gif in Resources */,
 				8C7E28F621671CF000B29284 /* Assets.xcassets in Resources */,
 				8C7E28F121671CEE00B29284 /* Main.storyboard in Resources */,
 			);
@@ -561,6 +568,7 @@
 				8C7E28F421671CEE00B29284 /* Hackathon.xcdatamodeld in Sources */,
 				8C03AE7321672101003DA0C9 /* UIImage+Extensions.swift in Sources */,
 				8C03AE7121672101003DA0C9 /* UIView+Extension.swift in Sources */,
+				E72226CE216899BC0055355D /* OnboardingViewController.swift in Sources */,
 				8C03AE6A21672101003DA0C9 /* UITextView+Placeholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -741,13 +749,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBH9MMUG99;
 				INFOPLIST_FILE = Hackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yc.hackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -761,13 +770,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBH9MMUG99;
 				INFOPLIST_FILE = Hackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yc.hackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

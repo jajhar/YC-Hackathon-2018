@@ -10,6 +10,8 @@ import UIKit
 
 extension UIColor {
     
+    static let easyMeetTheme = UIColor(hexString: "1199EE")
+    
     convenience init(hexString: String) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int = UInt32()

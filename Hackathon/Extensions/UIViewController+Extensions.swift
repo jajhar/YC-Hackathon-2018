@@ -55,18 +55,18 @@ extension UIViewController {
         activityViewController.popoverPresentationController?.sourceView = self.view
         present(activityViewController, animated: true, completion: nil)
     }
-    
-    func presentImagePicker(imagePicker: UIImagePickerController, sourceType: UIImagePickerController.SourceType, mediaTypes: [String] = [kUTTypeImage as String]) {
-        guard UIImagePickerController.isSourceTypeAvailable(sourceType) else {
-            presentGenericAlert(title: "Access Denied", message: "You must allow the app to access your camera or photo library in order to upload a photo or video. Please go to Settings->Privacy->Photos and allow Hackathon to access your camera or photo library.")
-            return
-        }
-        
-        imagePicker.sourceType = sourceType
-        imagePicker.allowsEditing = true
-        imagePicker.mediaTypes = mediaTypes
-        present(imagePicker, animated: true, completion: nil)
-    }
+//    
+//    func presentImagePicker(imagePicker: UIImagePickerController, sourceType: UIImagePickerController.SourceType, mediaTypes: [String] = [kUTTypeImage as String]) {
+//        guard UIImagePickerController.isSourceTypeAvailable(sourceType) else {
+//            presentGenericAlert(title: "Access Denied", message: "You must allow the app to access your camera or photo library in order to upload a photo or video. Please go to Settings->Privacy->Photos and allow Hackathon to access your camera or photo library.")
+//            return
+//        }
+//        
+//        imagePicker.sourceType = sourceType
+//        imagePicker.allowsEditing = true
+//        imagePicker.mediaTypes = mediaTypes
+//        present(imagePicker, animated: true, completion: nil)
+//    }
     
     func dismissSelf(animated: Bool = true) {
         if navigationController != nil {
@@ -83,22 +83,22 @@ extension UIViewController {
 }
 
 extension UIView {
-    
-    func displaySpinner() -> UIView {        
-        let ai = UIActivityIndicatorView(style: .whiteLarge)
-        ai.translatesAutoresizingMaskIntoConstraints = false
-        ai.color = .darkGray
-        ai.startAnimating()
-        
-        performOnMainThread {
-            self.addSubview(ai)
-            ai.constrainToCenter()
-            self.layoutIfNeeded()
-        }
-        
-        return ai
-    }
-    
+//    
+//    func displaySpinner() -> UIView {        
+//        let ai = UIActivityIndicatorView(style: .whiteLarge)
+//        ai.translatesAutoresizingMaskIntoConstraints = false
+//        ai.color = .darkGray
+//        ai.startAnimating()
+//        
+//        performOnMainThread {
+//            self.addSubview(ai)
+//            ai.constrainToCenter()
+//            self.layoutIfNeeded()
+//        }
+//        
+//        return ai
+//    }
+//    
     func removeSpinner(spinner: UIView) {
         performOnMainThread {
             spinner.removeFromSuperview()

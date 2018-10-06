@@ -22,6 +22,6 @@ extension UIImage {
     }
     
     func jpegRepresentation(compression: CGFloat = 1.0) -> Data? {
-        return jpegData(compressionQuality: compression)
+        return UIImageJPEGRepresentation(self, compression)
     }
 }

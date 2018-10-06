@@ -57,12 +57,12 @@ extension UITextView: NSTextStorageDelegate {
     /// When the UITextView did change, show or hide the label based on if the UITextView is empty or not
     ///
     /// - Parameter textView: The UITextView that got updated
-    public func textStorage(_ textStorage: NSTextStorage, didProcessEditing editedMask: NSTextStorage.EditActions, range editedRange: NSRange, changeInLength delta: Int) {
-        if let placeholderLabel = viewWithTag(100) as? UILabel {
-            placeholderLabel.isHidden = self.text.count > 0
-        }
-    }
-    
+//    public func textStorage(_ textStorage: NSTextStorage, didProcessEditing editedMask: NSTextStorage.EditActions, range editedRange: NSRange, changeInLength delta: Int) {
+//        if let placeholderLabel = viewWithTag(100) as? UILabel {
+//            placeholderLabel.isHidden = self.text.count > 0
+//        }
+//    }
+//    
     /// Resize the placeholder UILabel to make sure it's in the same position as the UITextView text
     private func resizePlaceholder() {
         if let placeholderLabel = self.viewWithTag(100) as! UILabel? {
