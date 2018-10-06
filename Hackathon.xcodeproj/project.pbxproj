@@ -26,7 +26,7 @@
 		8C03AE7621672101003DA0C9 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C03AE6721672101003DA0C9 /* URL+Extensions.swift */; };
 		8C03AE7821672169003DA0C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C03AE7721672169003DA0C9 /* Constants.swift */; };
 		8C7E28EC21671CEE00B29284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E28EB21671CEE00B29284 /* AppDelegate.swift */; };
-		8C7E28EE21671CEE00B29284 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E28ED21671CEE00B29284 /* ViewController.swift */; };
+		8C7E28EE21671CEE00B29284 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E28ED21671CEE00B29284 /* StartViewController.swift */; };
 		8C7E28F121671CEE00B29284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E28EF21671CEE00B29284 /* Main.storyboard */; };
 		8C7E28F421671CEE00B29284 /* Hackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E28F221671CEE00B29284 /* Hackathon.xcdatamodeld */; };
 		8C7E28F621671CF000B29284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E28F521671CF000B29284 /* Assets.xcassets */; };
@@ -46,6 +46,7 @@
 		8C7E294021671ECD00B29284 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E293421671ECD00B29284 /* APIRequest.swift */; };
 		E0F7D30BEA14E79D745DCC33 /* Pods_HackathonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D1550F981296BE08BAA9BD /* Pods_HackathonTests.framework */; };
 		E3BCF2C9713F2C1ABA0BE27E /* Pods_Hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B652C18F2CA5294CA739E396 /* Pods_Hackathon.framework */; };
+		E7067A0A21686A7C00CF09F7 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067A0921686A7C00CF09F7 /* RootTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +92,7 @@
 		8C03AE7721672169003DA0C9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8C7E28E821671CEE00B29284 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7E28EB21671CEE00B29284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C7E28ED21671CEE00B29284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C7E28ED21671CEE00B29284 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		8C7E28F021671CEE00B29284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C7E28F321671CEE00B29284 /* Hackathon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hackathon.xcdatamodel; sourceTree = "<group>"; };
 		8C7E28F521671CF000B29284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,6 +118,7 @@
 		8CEE770221684E9300528B35 /* Hackathon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hackathon.entitlements; sourceTree = "<group>"; };
 		A963B3F40EC44E57E97F6455 /* Pods_HackathonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackathonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B652C18F2CA5294CA739E396 /* Pods_Hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7067A0921686A7C00CF09F7 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
 		F4C4202D0382EC0AA002045F /* Pods-HackathonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonTests/Pods-HackathonTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -229,8 +231,9 @@
 			children = (
 				8CEE770221684E9300528B35 /* Hackathon.entitlements */,
 				8C7E28EB21671CEE00B29284 /* AppDelegate.swift */,
-				8C7E28ED21671CEE00B29284 /* ViewController.swift */,
+				8C7E28ED21671CEE00B29284 /* StartViewController.swift */,
 				8C7E28EF21671CEE00B29284 /* Main.storyboard */,
+				E7067A0921686A7C00CF09F7 /* RootTabBarController.swift */,
 				8C03AE792167216B003DA0C9 /* Config */,
 				8C03AE56216720DC003DA0C9 /* Extensions */,
 				8C7E291C21671D4C00B29284 /* Data */,
@@ -536,8 +539,9 @@
 				8C7E294021671ECD00B29284 /* APIRequest.swift in Sources */,
 				8C03AE7621672101003DA0C9 /* URL+Extensions.swift in Sources */,
 				8C7E293721671ECD00B29284 /* RemoteCoordinatorProtocol.swift in Sources */,
+				E7067A0A21686A7C00CF09F7 /* RootTabBarController.swift in Sources */,
 				8C03AE7821672169003DA0C9 /* Constants.swift in Sources */,
-				8C7E28EE21671CEE00B29284 /* ViewController.swift in Sources */,
+				8C7E28EE21671CEE00B29284 /* StartViewController.swift in Sources */,
 				8C7E293B21671ECD00B29284 /* RemoteCoordinator.swift in Sources */,
 				8C7E28EC21671CEE00B29284 /* AppDelegate.swift in Sources */,
 				8C7E292321671DAB00B29284 /* User.swift in Sources */,
@@ -737,7 +741,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBH9MMUG99;
 				INFOPLIST_FILE = Hackathon/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yc.hackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -754,7 +761,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBH9MMUG99;
 				INFOPLIST_FILE = Hackathon/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yc.hackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -771,7 +781,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBH9MMUG99;
 				INFOPLIST_FILE = HackathonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamegether.HackathonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -789,7 +803,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBH9MMUG99;
 				INFOPLIST_FILE = HackathonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamegether.HackathonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -806,7 +824,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBH9MMUG99;
 				INFOPLIST_FILE = HackathonUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamegether.HackathonUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -823,7 +845,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBH9MMUG99;
 				INFOPLIST_FILE = HackathonUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamegether.HackathonUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
