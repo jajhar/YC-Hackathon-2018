@@ -49,6 +49,9 @@
 		E7067A0A21686A7C00CF09F7 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067A0921686A7C00CF09F7 /* RootTabBarController.swift */; };
 		E70D396E21688C61003D525B /* welcome-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70D396D21688C61003D525B /* welcome-gif.gif */; };
 		E72226CE216899BC0055355D /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72226CD216899BC0055355D /* OnboardingViewController.swift */; };
+		E72226D02168A3A40055355D /* SchedulingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72226CF2168A3A40055355D /* SchedulingViewController.swift */; };
+		E72226D22168A4420055355D /* DayCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72226D12168A4420055355D /* DayCollectionView.swift */; };
+		E72226D72168AE970055355D /* TimeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72226D62168AE970055355D /* TimeCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +126,9 @@
 		E7067A0921686A7C00CF09F7 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
 		E70D396D21688C61003D525B /* welcome-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "welcome-gif.gif"; sourceTree = "<group>"; };
 		E72226CD216899BC0055355D /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		E72226CF2168A3A40055355D /* SchedulingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingViewController.swift; sourceTree = "<group>"; };
+		E72226D12168A4420055355D /* DayCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCollectionView.swift; sourceTree = "<group>"; };
+		E72226D62168AE970055355D /* TimeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCollectionView.swift; sourceTree = "<group>"; };
 		F4C4202D0382EC0AA002045F /* Pods-HackathonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonTests/Pods-HackathonTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -233,10 +239,12 @@
 		8C7E28EA21671CEE00B29284 /* Hackathon */ = {
 			isa = PBXGroup;
 			children = (
+				E72226D32168A46A0055355D /* DateViews */,
 				8CEE770221684E9300528B35 /* Hackathon.entitlements */,
 				8C7E28EB21671CEE00B29284 /* AppDelegate.swift */,
 				8C7E28ED21671CEE00B29284 /* StartViewController.swift */,
 				8C7E28EF21671CEE00B29284 /* Main.storyboard */,
+				E72226CF2168A3A40055355D /* SchedulingViewController.swift */,
 				E7067A0921686A7C00CF09F7 /* RootTabBarController.swift */,
 				E72226CD216899BC0055355D /* OnboardingViewController.swift */,
 				E70D396D21688C61003D525B /* welcome-gif.gif */,
@@ -317,6 +325,15 @@
 				8C7E293121671ECD00B29284 /* RemoteCoordinator+User.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		E72226D32168A46A0055355D /* DateViews */ = {
+			isa = PBXGroup;
+			children = (
+				E72226D12168A4420055355D /* DayCollectionView.swift */,
+				E72226D62168AE970055355D /* TimeCollectionView.swift */,
+			);
+			path = DateViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -553,6 +570,7 @@
 				8C7E28EC21671CEE00B29284 /* AppDelegate.swift in Sources */,
 				8C7E292321671DAB00B29284 /* User.swift in Sources */,
 				8C03AE6921672101003DA0C9 /* URLRequest+Extensions.swift in Sources */,
+				E72226D02168A3A40055355D /* SchedulingViewController.swift in Sources */,
 				8C03AE6E21672101003DA0C9 /* String+Extensions.swift in Sources */,
 				8C03AE6F21672101003DA0C9 /* ScrollView+Extensions.swift in Sources */,
 				8C03AE58216720E8003DA0C9 /* Threading.swift in Sources */,
@@ -561,12 +579,14 @@
 				8C7E292221671DAB00B29284 /* UserObject.swift in Sources */,
 				8C03AE6B21672101003DA0C9 /* UITableviewCell+Extensions.swift in Sources */,
 				8C03AE7221672101003DA0C9 /* UIPasteBoard+Extensions.swift in Sources */,
+				E72226D72168AE970055355D /* TimeCollectionView.swift in Sources */,
 				8C03AE7421672101003DA0C9 /* UITextField+Extensions.swift in Sources */,
 				8C03AE6821672101003DA0C9 /* UIDevice+Extensions.swift in Sources */,
 				8C7E293821671ECD00B29284 /* RemoteError.swift in Sources */,
 				8C03AE7521672101003DA0C9 /* Date+Extensions.swift in Sources */,
 				8C7E28F421671CEE00B29284 /* Hackathon.xcdatamodeld in Sources */,
 				8C03AE7321672101003DA0C9 /* UIImage+Extensions.swift in Sources */,
+				E72226D22168A4420055355D /* DayCollectionView.swift in Sources */,
 				8C03AE7121672101003DA0C9 /* UIView+Extension.swift in Sources */,
 				E72226CE216899BC0055355D /* OnboardingViewController.swift in Sources */,
 				8C03AE6A21672101003DA0C9 /* UITextView+Placeholder.swift in Sources */,
