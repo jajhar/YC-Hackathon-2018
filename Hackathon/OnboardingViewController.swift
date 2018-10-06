@@ -10,5 +10,11 @@ import UIKit
 
 class OnboardingViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        navigationController?.navigationBar.barTintColor = view.backgroundColor
+        tabBarController?.tabBar.barTintColor = view.backgroundColor
+    }
 }
 
